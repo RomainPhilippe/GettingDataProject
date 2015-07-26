@@ -1,6 +1,5 @@
-##2. The code book
+The code book
 
-#####
 Describing variable
 
 
