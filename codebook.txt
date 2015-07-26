@@ -8,4 +8,44 @@ Each column represente a information about an output of an smartphone. In the ti
 The prefix 't' to denote time and the 'f' to indicate frequency domain signals.
 
 Most informations of the tidy data are according to three axis: X Y and Z. 
-Units of columns of tidy data are meters by second.
+
+
+The available variables are :
+  "subject"                                "activity"                              
+  "tBodyAcc.MeanValue.X"                   "tBodyAcc.MeanValue.Y"                  
+  "tBodyAcc.MeanValue.Z"                   "tBodyAcc.StandardDeviation.X"          
+  "tBodyAcc.StandardDeviation.Y"           "tBodyAcc.StandardDeviation.Z"          
+  "tGravityAcc.MeanValue.X"                "tGravityAcc.MeanValue.Y"               
+  "tGravityAcc.MeanValue.Z"                "tGravityAcc.StandardDeviation.X"       
+  "tGravityAcc.StandardDeviation.Y"        "tGravityAcc.StandardDeviation.Z"       
+  "tBodyAccJerk.MeanValue.X"               "tBodyAccJerk.MeanValue.Y"              
+  "tBodyAccJerk.MeanValue.Z"               "tBodyAccJerk.StandardDeviation.X"      
+  "tBodyAccJerk.StandardDeviation.Y"       "tBodyAccJerk.StandardDeviation.Z"      
+  "tBodyGyro.MeanValue.X"                  "tBodyGyro.MeanValue.Y"                 
+  "tBodyGyro.MeanValue.Z"                  "tBodyGyro.StandardDeviation.X"         
+  "tBodyGyro.StandardDeviation.Y"          "tBodyGyro.StandardDeviation.Z"         
+  "tBodyGyroJerk.MeanValue.X"              "tBodyGyroJerk.MeanValue.Y"             
+  "tBodyGyroJerk.MeanValue.Z"              "tBodyGyroJerk.StandardDeviation.X"     
+  "tBodyGyroJerk.StandardDeviation.Y"      "tBodyGyroJerk.StandardDeviation.Z"     
+  "tBodyAccMag.MeanValue"                  "tBodyAccMag.StandardDeviation"         
+  "tGravityAccMag.MeanValue"               "tGravityAccMag.StandardDeviation"      
+  "tBodyAccJerkMag.MeanValue"              "tBodyAccJerkMag.StandardDeviation"     
+  "tBodyGyroMag.MeanValue"                 "tBodyGyroMag.StandardDeviation"        
+  "tBodyGyroJerkMag.MeanValue"             "tBodyGyroJerkMag.StandardDeviation"    
+  "fBodyAcc.MeanValue.X"                   "fBodyAcc.MeanValue.Y"                  
+  "fBodyAcc.MeanValue.Z"                   "fBodyAcc.StandardDeviation.X"          
+  "fBodyAcc.StandardDeviation.Y"           "fBodyAcc.StandardDeviation.Z"          
+  "fBodyAccJerk.MeanValue.X"               "fBodyAccJerk.MeanValue.Y"              
+  "fBodyAccJerk.MeanValue.Z"               "fBodyAccJerk.StandardDeviation.X"      
+  "fBodyAccJerk.StandardDeviation.Y"       "fBodyAccJerk.StandardDeviation.Z"      
+  "fBodyGyro.MeanValue.X"                  "fBodyGyro.MeanValue.Y"                 
+  "fBodyGyro.MeanValue.Z"                  "fBodyGyro.StandardDeviation.X"         
+  "fBodyGyro.StandardDeviation.Y"          "fBodyGyro.StandardDeviation.Z"         
+  "fBodyAccMag.MeanValue"                  "fBodyAccMag.StandardDeviation"         
+  "fBodyBodyAccJerkMag.MeanValue"          "fBodyBodyAccJerkMag.StandardDeviation" 
+  "fBodyBodyGyroMag.MeanValue"             "fBodyBodyGyroMag.StandardDeviation"    
+  "fBodyBodyGyroJerkMag.MeanValue"         "fBodyBodyGyroJerkMag.StandardDeviation"
+
+The variable "subject" is the number of the participant, "activity" is the name of the activity. The remain variables provide informations about accelerations of piece of the body.
+
+Units of these columns are meters by second.
