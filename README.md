@@ -1,6 +1,6 @@
 # GettingDataProject
 
-##1. How the script work
+##1. How the script works
 
 #####question 1
 
