@@ -1,13 +1,13 @@
 The code book
 
-Describing variable
+Describing variables
 
 
-Each column represente a information about an output of an smartphone. In the tidy data frame, we have the mean of a mouvement by subject by activity.
+Each column contains informations from an output of an smartphone. In the tidy data frame, we have the mean of a movement by subject and activity.
 
-The prefix 't' to denote time and the 'f' to indicate frequency domain signals.
+The prefix 't' denotes time and the 'f' indicates a frequency domain signal.
 
-Most informations of the tidy data are according to three axis: X Y or Z. 
+Most informations of the tidy data are composed by a set of three axis: X Y or Z. 
 
 The available variables are :
   "subject"                                "activity"                              
@@ -45,6 +45,6 @@ The available variables are :
   "fBodyBodyGyroMag.MeanValue"             "fBodyBodyGyroMag.StandardDeviation"    
   "fBodyBodyGyroJerkMag.MeanValue"         "fBodyBodyGyroJerkMag.StandardDeviation"
 
-The variable "subject" is the id of the participant, "activity" is the name of the activity. The remain variables provide informations about the mean or the standard deviation of accelerations of a part of the body.
+The variable "subject" is the id of the participant, "activity" is the name of the activity. The other variables provide informations about the mean and the standard deviation of accelerations of a part of the body.
 
 Units of these columns are meters by second.
