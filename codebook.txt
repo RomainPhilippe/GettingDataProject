@@ -7,8 +7,7 @@ Each column represente a information about an output of an smartphone. In the ti
 
 The prefix 't' to denote time and the 'f' to indicate frequency domain signals.
 
-Most informations of the tidy data are according to three axis: X Y and Z. 
-
+Most informations of the tidy data are according to three axis: X Y or Z. 
 
 The available variables are :
   "subject"                                "activity"                              
@@ -46,6 +45,6 @@ The available variables are :
   "fBodyBodyGyroMag.MeanValue"             "fBodyBodyGyroMag.StandardDeviation"    
   "fBodyBodyGyroJerkMag.MeanValue"         "fBodyBodyGyroJerkMag.StandardDeviation"
 
-The variable "subject" is the number of the participant, "activity" is the name of the activity. The remain variables provide informations about accelerations of piece of the body.
+The variable "subject" is the id of the participant, "activity" is the name of the activity. The remain variables provide informations about the mean or the standard deviation of accelerations of a part of the body.
 
 Units of these columns are meters by second.
