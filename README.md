@@ -32,4 +32,4 @@ Each column represente a information about an output of an smartphone. In the ti
 
 The prefix 't' to denote time and the 'f' to indicate frequency domain signals.
 
-Most informations of the tidy data are according to three axis: X Y and Z.
+Most informations of the tidy data are according to three axis: X Y and Z. Units of columns of tidy data are meters by second.
