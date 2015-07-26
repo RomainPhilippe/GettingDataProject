@@ -1,6 +1,6 @@
 # GettingDataProject
 
-##1. How the script works
+## How the script works
 
 #####question 1
 
@@ -22,14 +22,3 @@ Thanks to gsub function, I rename the column for tidy data frame
 #####question 5
 
 I grouped by subject and activity to get the mean oh each column in the tidy data frame.
-
-
-##2. The code book
-
-#####Describing variable
-
-Each column represente a information about an output of an smartphone. In the tidy data frame, we have the mean of a mouvement by subject by activity.
-
-The prefix 't' to denote time and the 'f' to indicate frequency domain signals.
-
-Most informations of the tidy data are according to three axis: X Y and Z. Units of columns of tidy data are meters by second.
